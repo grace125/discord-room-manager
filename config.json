@@ -1,0 +1,34 @@
+{
+	"token": "[ADD TOKEN HERE]",
+	"roles": {
+
+		"room-1": ["In room 1"],
+		"room-2": ["In room 2"],
+		"room-3": ["In room 3"],
+		"room-4": ["In room 4"],
+		"room-5": ["In room 5"],
+
+		"foyer (start here)": 	["Main level", "In foyer"],
+		"living room": 			["Main level", "In living room"],
+		"kitchen":   			["Main level", "In kitchen"],
+		"dining room": 			["Main level", "In dining room"],
+		"dance floor": 			["Main level", "On dance floor"],
+		"sun room": 			["Main level", "In sun room"],
+		"patio": 				["Main level", "On patio"],
+		"study": 				["Main level", "In study"],
+
+		"noisy staircase": 		["Upstairs", "On noisy staircase"],
+		"bathroom": 			["Upstairs", "In bathroom"],
+		"guest room": 			["Upstairs", "In guest room"],
+		"my room (keep out)": 	["Upstairs", "In owner's room"],
+		"closet": 				["Upstairs", "In the closet"],
+		"attic": 				["Upstairs", "In attic"],
+
+		"creepy staircase": 	["Downstairs", "On creepy staircase"],
+		"workshop": 			["Downstairs", "In workshop"],
+		"laundry room": 		["Downstairs", "In laundry room"],
+		"wine cellar": 			["Downstairs", "In wine cellar"],
+		"secret dungeon": 		["Downstairs", "In secret dungeon"]
+	}
+}
+

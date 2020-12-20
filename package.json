@@ -1,0 +1,14 @@
+{
+  "name": "discord-room-manager",
+  "version": "1.0.0",
+  "description": "A discord bot for managing rooms in a virtual space",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grace Schorno",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
