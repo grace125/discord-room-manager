@@ -24,11 +24,11 @@ client.on('voiceStateUpdate', (exitEvent, joinEvent) => {
 		
 		let channelName = channelJoined.name;
 		
-		if (!(channelName in config.roles)) {
+		if (!(channelName in config.rooms)) {
 			return;
 		}
 
-		let roleNames = config.roles[channelName];
+		let roleNames = config.rooms[channelName];
 		let roles = joinEvent.guild.roles.cache.filter(r => roleNames.includes(r.name));
 		
 		roles.forEach((role) => {
@@ -43,11 +43,11 @@ client.on('voiceStateUpdate', (exitEvent, joinEvent) => {
 
 		let channelName = channelExited.name;
 		
-		if (!(channelName in config.roles)) {
+		if (!(channelName in config.rooms)) {
 			return;
 		}
 			
-		let roleNames = config.roles[channelName];
+		let roleNames = config.rooms[channelName];
 		let roles = exitEvent.guild.roles.cache.filter(r => roleNames.includes(r.name));
 		
 		roles.forEach((role) => {

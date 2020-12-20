@@ -1,6 +1,8 @@
 {
 	"token": "[ADD TOKEN HERE]",
-	"roles": {
+	"rooms": {
+		
+		"voice-channel-name": ["Tag assigned 1", "Tag assigned 2"],
 
 		"room-1": ["In room 1"],
 		"room-2": ["In room 2"],
