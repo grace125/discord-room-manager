@@ -7,7 +7,7 @@ A discord bot that allows you to assign roles to users when they are in a partic
 
 If you don't know how to set up a Discord bot, [Discordjs.guide](https://discordjs.guide/) is a great resource. 
 
-Here are some things to know:
+Here are some other things to know:
 
 - `config.js` is where you put the bot's private token, as well as the "rooms" (the roles to assign when you enter each voice channel)
 
